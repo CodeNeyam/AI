@@ -1,0 +1,7 @@
+max_depth,min_samples_split,train_acc,val_acc
+2,2,1.0,1.0
+2,20,1.0,1.0
+4,2,1.0,1.0
+4,20,1.0,1.0
+None,2,1.0,1.0
+None,20,1.0,1.0
