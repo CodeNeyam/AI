@@ -1,4 +1,0 @@
-|--- cat__Sex_male <= 0.50
-|   |--- class: 1
-|--- cat__Sex_male >  0.50
-|   |--- class: 0

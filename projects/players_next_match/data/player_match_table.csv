@@ -1,0 +1,21 @@
+match_id,match_date,competition,team,opponent,home_away,team_score,opponent_score,player_id,player_name,position,started,minutes,yellow_cards,red_cards,injured_at_kickoff,suspended_at_kickoff
+1001,2024-08-10,Example League,Alpha FC,Bravo United,Home,1,0,1,Alex Meyer,GK,0,0,0,0,0,0
+1004,2024-08-17,Example League,Alpha FC,Bravo United,Away,1,0,1,Alex Meyer,GK,1,79,0,0,0,0
+1007,2024-08-24,Example League,Alpha FC,Bravo United,Home,0,0,1,Alex Meyer,GK,0,12,0,0,0,0
+1010,2024-08-31,Example League,Alpha FC,Bravo United,Away,0,1,1,Alex Meyer,GK,0,0,0,0,1,0
+1013,2024-09-07,Example League,Alpha FC,Bravo United,Home,1,1,1,Alex Meyer,GK,1,100,0,0,0,0
+1016,2024-09-14,Example League,Alpha FC,Bravo United,Away,2,1,1,Alex Meyer,GK,0,38,0,0,0,0
+1019,2024-09-21,Example League,Alpha FC,Bravo United,Home,1,0,1,Alex Meyer,GK,1,99,0,0,0,0
+1022,2024-09-28,Example League,Alpha FC,Bravo United,Away,0,0,1,Alex Meyer,GK,1,64,0,0,0,0
+1025,2024-10-05,Example League,Alpha FC,Bravo United,Home,1,1,1,Alex Meyer,GK,0,0,0,0,0,1
+1028,2024-10-12,Example League,Alpha FC,Bravo United,Away,0,1,1,Alex Meyer,GK,0,23,0,0,0,0
+1031,2024-10-19,Example League,Alpha FC,Bravo United,Home,1,1,1,Alex Meyer,GK,1,64,0,0,0,0
+1034,2024-10-26,Example League,Alpha FC,Bravo United,Away,0,1,1,Alex Meyer,GK,1,61,1,0,0,0
+1037,2024-11-02,Example League,Alpha FC,Bravo United,Home,1,1,1,Alex Meyer,GK,1,82,0,0,0,0
+1040,2024-11-09,Example League,Alpha FC,Bravo United,Away,0,0,1,Alex Meyer,GK,0,0,0,0,1,0
+1043,2024-11-16,Example League,Alpha FC,Bravo United,Home,1,1,1,Alex Meyer,GK,1,100,0,0,0,0
+1046,2024-11-23,Example League,Alpha FC,Bravo United,Away,0,0,1,Alex Meyer,GK,1,85,0,0,0,0
+1049,2024-11-30,Example League,Alpha FC,Bravo United,Home,0,0,1,Alex Meyer,GK,1,100,0,0,0,0
+1052,2024-12-07,Example League,Alpha FC,Bravo United,Away,1,1,1,Alex Meyer,GK,1,98,0,0,0,0
+1055,2024-12-14,Example League,Alpha FC,Bravo United,Home,0,1,1,Alex Meyer,GK,1,55,0,0,0,0
+1058,2024-12-21,Example League,Alpha FC,Bravo United,Away,0,1,1,Alex Meyer,GK,1,69,1,0,0,0
