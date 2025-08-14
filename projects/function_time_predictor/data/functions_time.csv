@@ -1,0 +1,121 @@
+function_name,description,time_spent_hours
+decrypt_seo_metadata,"Decrypt seo metadata using Kafka, MongoDB. It adds feature flags for gradual rollout.",3.0
+summarize_retry_dead_letter,"Summarize retry dead letter using MySQL, Azure Blob. It handles pagination, sorting, and filtering.",5.0
+generate_invoice_pdf,"Renders invoice HTML to PDF with taxes, discounts, and localized currency formatting.",5.0
+fetch_metric_aggregation,"Fetch metric aggregation using ClickHouse, gRPC. It performs background processing via job queue.",2.5
+detect_fraudulent_activity,Detects anomalies using rule-based scoring and recent activity signals.,6.5
+reconcile_two_factor_setup,"Reconcile two factor setup using MongoDB, REST. It implements exponential backoff and jitter.",5.5
+restore_index_maintenance,"Restore index maintenance using GCS, WebSocket. It streams large payloads without loading in memory.",4.0
+generate_sales_report,Aggregates sales by region and product; exports CSV with date filters.,4.5
+generate_bulk_export,"Generate bulk export using RabbitMQ, OpenSearch. It applies rate limiting per API key.",4.0
+warmup_team_invite,"Warmup team invite using WebSocket, PostgreSQL. It ensures idempotency with deduplication keys.",4.0
+process_refund_request,Submits partial or full refunds via payment API; reconciles ledger entries.,3.5
+ingest_retry_dead_letter,"Ingest retry dead letter using REST, PostgreSQL. It ensures idempotency with deduplication keys.",4.5
+clean_temp_files,Deletes expired temp files older than retention policy with concurrency control.,2.0
+tokenize_team_invite,"Tokenize team invite using Elasticsearch, Kafka. It streams large payloads without loading in memory.",10.0
+import_address_validation,"Import address validation using SSE, MongoDB. It enforces RBAC and audit logging.",3.0
+validate_kafka_consumer,"Validate kafka consumer using Azure Blob, Docker. It adds feature flags for gradual rollout.",2.5
+deduplicate_bulk_export,"Deduplicate bulk export using ElastiCache, GraphQL. It streams large payloads without loading in memory.",2.5
+get_user_profile,Fetches user profile and preferences from PostgreSQL using joins on users and profiles tables; caches result in Redis.,2.5
+delete_deadlock_resolver,"Delete deadlock resolver using REST, SSE. It performs background processing via job queue.",5.0
+split_index_maintenance,"Split index maintenance using Kafka, MySQL. It implements exponential backoff and jitter.",2.5
+invalidate_queue_worker,"Invalidate queue worker using ElastiCache, REST. It handles webhooks and verifies signatures.",3.5
+rank_ab_test_assignment,"Rank ab test assignment using WebSocket, Azure Blob. It enforces RBAC and audit logging.",6.5
+detect_cron_job,"Detect cron job using Redis, WebSocket. It implements exponential backoff and jitter.",7.5
+warmup_s3_sync,"Warmup s3 sync using Docker, Azure Blob. It adds proper indexes and avoids N+1 queries.",5.0
+generate_s3_sync,"Generate s3 sync using Redis, ClickHouse. It supports multi-tenant scoping.",4.5
+import_customer_data,"Imports CSV of customers, validates schema, and upserts records with conflict handling.",3.0
+merge_order_records,Merges duplicate orders by heuristics; maintains audit log and idempotency.,4.0
+rate_limit_azure_blob_sync,"Rate limit azure blob sync using Kafka, S3. It ensures idempotency with deduplication keys.",3.5
+classify_account_deletion,"Classify account deletion using OpenSearch, GraphQL. It adds retries with circuit breaker fallback.",7.0
+fetch_idempotency_key,"Fetch idempotency key using GCS, SSE. It supports multi-tenant scoping.",3.0
+sync_with_external_api,Synchronizes products with external API using delta tokens and rate limiting.,4.5
+compress_health_check,"Compress health check using Redis, Azure Blob. It validates schema with JSON Schema.",5.0
+generate_api_token,Creates signed API tokens with scopes and expiration; stores hashed version.,2.5
+fetch_session,"Fetch session using gRPC, Docker. It ensures idempotency with deduplication keys.",2.5
+backup_bulk_export,"Backup bulk export using PostgreSQL, Redis. It handles webhooks and verifies signatures.",3.5
+create_spam_filter,"Create spam filter using OpenSearch, MySQL. It sanitizes HTML and escapes user content.",4.5
+rank_graphql_resolver,"Rank graphql resolver using PostgreSQL, Kafka. It uses connection pooling and timeouts.",8.0
+calculate_write_batching,"Calculate write batching using REST, MongoDB. It handles pagination, sorting, and filtering.",3.0
+fetch_timezone_normalization,"Fetch timezone normalization using OpenSearch, SSE. It runs inside a transactional boundary.",2.0
+optimize_search_results,"Improves search ranking by tuning query, adding indexes, and weighting signals.",5.5
+analyze_s3_sync,"Analyze s3 sync using SSE, PostgreSQL. It handles webhooks and verifies signatures.",10.0
+schedule_daily_backup,Sets up cron job for incremental backups; validates snapshot consistency.,3.0
+detect_sms_notification,"Detect sms notification using Elasticsearch, PostgreSQL. It applies rate limiting per API key.",8.0
+send_push_notification,Sends push notifications through FCM/APNs with device token handling.,1.5
+calculate_service_discovery,"Calculate service discovery using MongoDB, Azure Blob. It sanitizes HTML and escapes user content.",5.0
+transform_image_thumbnail,"Transform image thumbnail using GraphQL, WebSocket. It normalizes locales and currency formats.",5.5
+process_payment,"Integrates with payment gateway to create charge, handle webhooks, and record ledger entries.",4.5
+fetch_oauth_refresh,"Fetch oauth refresh using MongoDB, Azure Blob. It runs inside a transactional boundary.",2.0
+parse_saga_orchestrator,"Parse saga orchestrator using gRPC, Redis. It uses connection pooling and timeouts.",9.5
+compress_cache_warmup,"Compress cache warmup using WebSocket, Redis. It runs inside a transactional boundary.",5.0
+reconcile_email_bounce_handler,"Reconcile email bounce handler using GCS, REST. It runs inside a transactional boundary.",3.0
+parse_rate_plan_pricing,"Parse rate plan pricing using Kafka, PostgreSQL. It enforces RBAC and audit logging.",4.5
+update_inventory_stock,Updates stock counts atomically; prevents oversell with row-level locks.,3.5
+import_currency_conversion,"Import currency conversion using SSE, GraphQL. It validates schema with JSON Schema.",2.5
+optimize_audit_trail,"Optimize audit trail using WebSocket, GraphQL. It uses connection pooling and timeouts.",7.0
+sync_permissions_check,"Sync permissions check using PostgreSQL, S3. It caches hot keys in Redis with TTL.",4.0
+fetch_recent_orders,Retrieves paginated recent orders with filtering and sorting; uses covering indexes.,3.5
+transform_websocket_broadcast,"Transform websocket broadcast using OpenSearch, S3. It sanitizes HTML and escapes user content.",2.5
+create_circuit_breaker,"Create circuit breaker using MongoDB, SSE. It uses connection pooling and timeouts.",4.5
+invalidate_pii_redaction,"Invalidate pii redaction using RabbitMQ, ClickHouse. It sanitizes HTML and escapes user content.",2.5
+merge_query_optimizer,"Merge query optimizer using GCS, ClickHouse. It handles pagination, sorting, and filtering.",8.5
+compress_log_files,Compresses rotated logs and uploads to archival storage.,2.0
+archive_old_records,Moves aged records to cold storage; compacts tables and updates metadata.,4.0
+calculate_long_running_job,"Calculate long running job using RabbitMQ, gRPC. It caches hot keys in Redis with TTL.",6.0
+orchestrate_audit_trail,"Orchestrate audit trail using SSE, PostgreSQL. It handles webhooks and verifies signatures.",8.0
+backup_database,Runs full database backup to S3 with encryption and integrity checks.,6.0
+export_product_list,Exports product catalog to CSV/JSON with pagination and streaming response.,3.0
+import_feature_rollout,"Import feature rollout using PostgreSQL, ClickHouse. It supports multi-tenant scoping.",3.0
+send_email_notification,Sends templated emails via SMTP provider; includes retry and basic batching.,1.5
+apply_discount_code,Validates and applies coupon codes; handles stacking rules and expirations.,2.5
+process_config_reload,"Process config reload using OpenSearch, Kafka. It handles pagination, sorting, and filtering.",4.0
+update_gdpr_export,"Update gdpr export using ClickHouse, Elasticsearch. It supports multi-tenant scoping.",5.0
+validate_user_input,Validates request payloads against JSON schema and sanitizes inputs to prevent injection.,2.0
+transform_image_processing,"Transform image processing using Redis, MySQL. It runs inside a transactional boundary.",5.5
+analyze_azure_blob_sync,"Analyze azure blob sync using Redis, OpenSearch. It handles webhooks and verifies signatures.",8.0
+classify_email_bounce_handler,"Classify email bounce handler using Azure Blob, Kafka. It runs inside a transactional boundary.",8.5
+validate_rss_feed,"Validate rss feed using S3, GraphQL. It adds feature flags for gradual rollout.",2.0
+recommend_cache_warmup,"Recommend cache warmup using ElastiCache, Kafka. It streams large payloads without loading in memory.",9.5
+sync_timezone_normalization,"Sync timezone normalization using gRPC, Azure Blob. It implements exponential backoff and jitter.",5.0
+transform_feature_rollout,"Transform feature rollout using Kafka, WebSocket. It uses connection pooling and timeouts.",3.5
+parse_bulk_export,"Parse bulk export using Redis, MySQL. It handles webhooks and verifies signatures.",4.0
+paginate_analytics_event,"Paginate analytics event using WebSocket, SSE. It adds proper indexes and avoids N+1 queries.",6.5
+transform_service_discovery,"Transform service discovery using RabbitMQ, Azure Blob. It uses connection pooling and timeouts.",5.5
+optimize_idempotency_key,"Optimize idempotency key using gRPC, ElastiCache. It adds retries with circuit breaker fallback.",5.0
+reconcile_saga_orchestrator,"Reconcile saga orchestrator using Elasticsearch, Kafka. It validates schema with JSON Schema.",9.5
+optimize_sms_notification,"Optimize sms notification using MySQL, Azure Blob. It coordinates distributed transactions using outbox pattern.",7.0
+webhook_analytics_event,"Webhook analytics event using gRPC, PostgreSQL. It supports multi-tenant scoping.",4.0
+index_exception_notifier,"Index exception notifier using Kafka, MongoDB. It validates schema with JSON Schema.",3.5
+cache_api_gateway,"Cache api gateway using ElastiCache, Kafka. It ensures idempotency with deduplication keys.",6.0
+restore_long_running_job,"Restore long running job using Elasticsearch, Redis. It coordinates distributed transactions using outbox pattern.",5.0
+normalize_permissions_check,"Normalize permissions check using GCS, Redis. It ensures idempotency with deduplication keys.",4.0
+deduplicate_team_invite,"Deduplicate team invite using MySQL, PostgreSQL. It implements exponential backoff and jitter.",5.0
+rate_limit_email_unsubscribe,"Rate limit email unsubscribe using ElastiCache, Azure Blob. It enforces RBAC and audit logging.",6.0
+split_feature_flag_toggle,"Split feature flag toggle using SSE, Redis. It coordinates distributed transactions using outbox pattern.",4.0
+paginate_spam_filter,"Paginate spam filter using Azure Blob, MySQL. It uses connection pooling and timeouts.",3.5
+rank_team_invite,"Rank team invite using Kafka, MySQL. It adds proper indexes and avoids N+1 queries.",8.5
+analyze_health_check,"Analyze health check using Redis, MongoDB. It runs inside a transactional boundary.",8.5
+fetch_user_activity_log,Fetches user activity events with time-window and type filters; paginated.,3.5
+retry_oauth,"Retry oauth using REST, Azure Blob. It validates schema with JSON Schema.",4.0
+update_order_status,Updates order status with transactional integrity; writes to orders table and emits an event to a message queue.,3.0
+webhook_deadlock_resolver,"Webhook deadlock resolver using ClickHouse, OpenSearch. It uses connection pooling and timeouts.",4.5
+train_recommendation_model,Trains lightweight collaborative filtering model on user-item interactions; saves artifact.,7.0
+calculate_shipping_cost,"Computes shipping based on destination, weight, and carrier API quotes with fallback rates.",4.0
+verify_payment_transaction,Verifies transaction status against gateway API; handles idempotent retries.,4.0
+ingest_seo_metadata,"Ingest seo metadata using Elasticsearch, GCS. It supports multi-tenant scoping.",6.0
+migrate_analytics_event,"Migrate analytics event using gRPC, WebSocket. It coordinates distributed transactions using outbox pattern.",6.5
+deduplicate_bulk_import,"Deduplicate bulk import using MySQL, Elasticsearch. It handles pagination, sorting, and filtering.",4.0
+fetch_rss_feed,"Fetch rss feed using WebSocket, MySQL. It sanitizes HTML and escapes user content.",2.5
+compress_kafka_producer,"Compress kafka producer using Docker, REST. It uses connection pooling and timeouts.",3.0
+export_gdpr_export,"Export gdpr export using RabbitMQ, GCS. It handles pagination, sorting, and filtering.",2.0
+get_cache_invalidation,"Get cache invalidation using Azure Blob, S3. It adds retries with circuit breaker fallback.",2.0
+summarize_idempotency_key,"Summarize idempotency key using Elasticsearch, PostgreSQL. It ensures idempotency with deduplication keys.",5.0
+check_system_health,"Runs dependency health checks (DB, cache, queue) and returns consolidated status.",2.0
+rank_read_replica_failover,"Rank read replica failover using Kubernetes, GCS. It streams large payloads without loading in memory.",11.0
+fetch_profile_avatar_upload,"Fetch profile avatar upload using MySQL, Azure Blob. It implements exponential backoff and jitter.",2.5
+encrypt_queue_worker,"Encrypt queue worker using Kafka, S3. It compresses payloads and negotiates content types.",4.5
+reset_user_password,Handles password reset token generation and verification; enforces password policy.,2.5
+create_email_unsubscribe,"Create email unsubscribe using MongoDB, GraphQL. It applies rate limiting per API key.",3.5
+schedule_gdpr_erasure,"Schedule gdpr erasure using WebSocket, Kafka. It applies rate limiting per API key.",4.5
+process_bulk_export,"Process bulk export using ElastiCache, Kafka. It coordinates distributed transactions using outbox pattern.",4.5
